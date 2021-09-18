@@ -151,6 +151,60 @@
     "imgRes": "url('https://i.ibb.co/F5Fw3x4/17-2.png')",
     "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day17NetflixNavigation",
     "deploy": "https://50-challenges-javascript.vercel.app/Day17NetflixNavigation/"
+  },
+  {
+    "id": 18,
+    "title": "Testimonial Box Switcher",
+    "description": "En este reto creamos una caja de testimonios que cada cierto tiempo va mostrando otro testimonio diferente. ",
+    "img": "url('https://i.ibb.co/ccQvBHM/18-1.png')",
+    "imgRes": "url('https://i.ibb.co/DzcfwGK/18-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day18TestimonialBoxSwitcher",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day18TestimonialBoxSwitcher/"
+  },
+  {
+    "id": 19,
+    "title": "Pokedex API",
+    "description": "En este reto creamos una pokédex mostrando información de los pokemones consumiendo datos de una  API. ",
+    "img": "url('https://i.ibb.co/Z2wD5rD/19-1.png')",
+    "imgRes": "url('https://i.ibb.co/TmXJjbg/19-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day19PokedexAPI",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day19PokedexAPI/"
+  },
+  {
+    "id": 20,
+    "title": "Doble click Heart",
+    "description": "En este reto creamos el efecto de instagram que al darle doble clic a la imagen nos sale un corazón. ",
+    "img": "url('https://i.ibb.co/tXHx6pP/20-1.png')",
+    "imgRes": "url('https://i.ibb.co/6ZQfzm0/20-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day20DobleclickHeart",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day20DobleclickHeart/"
+  },
+  {
+    "id": 21,
+    "title": "Event keycodes",
+    "description": "En este reto creamos un código que al presionar cualquier tecla del teclado nos devuelve que tecla es acompañada de su información.",
+    "img": "url('https://i.ibb.co/ngmMDzW/21-1.png')",
+    "imgRes": "url('https://i.ibb.co/bFhxbmP/21-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day21Eventkeycodes",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day21Eventkeycodes/"
+  },
+  {
+    "id": 22,
+    "title": "Mobile Nav Navigation",
+    "description": "En este reto creamos la navegación de un celular.",
+    "img": "url('https://i.ibb.co/PN3R6Q4/22-1.png')",
+    "imgRes": "url('https://i.ibb.co/xCGnt1Y/22-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day22MobileNavNavigation",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day22MobileNavNavigation/"
+  },
+  {
+    "id": 23,
+    "title": "Drink Water",
+    "description": "En este reto identificamos cuantos iconos ha presionado el usuario y así calcular cuantos litros de agua tomo.",
+    "img": "url('https://i.ibb.co/9tC6HdJ/23-1.png')",
+    "imgRes": "url('https://i.ibb.co/YZFqz9t/23-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day23DrinkWater",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day23DrinkWater/"
   }
   
 ]
