@@ -205,6 +205,41 @@
     "imgRes": "url('https://i.ibb.co/YZFqz9t/23-2.png')",
     "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day23DrinkWater",
     "deploy": "https://50-challenges-javascript.vercel.app/Day23DrinkWater/"
+  },
+  {
+    "id": 24,
+    "title": "Feedback UI Design",
+    "description": "En este reto creamos una retroalimentación del usuario utilizando tres emojis para representar la satisfacción del usuario, después de seleccionar alguno y darle clic en el botón enviar nos muestra un mensaje en pantalla.",
+    "img": "url('https://i.ibb.co/HzMcLnp/24-1.png')",
+    "imgRes": "url('https://i.ibb.co/jbLk2Dy/24-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day24FeedbackUIDesign",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day24FeedbackUIDesign/"
+  },
+  {
+    "id": 25,
+    "title": "Github Profile",
+    "description": "En este reto creamos un buscador de perfiles de Github.",
+    "img": "url('https://i.ibb.co/6n1QKk6/25-1.png')",
+    "imgRes": "url('https://i.ibb.co/Js4fsvN/25-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day25GithubProfile",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day25GithubProfile/"
+  },
+  {
+    "id": 26,
+    "title": "Sticky Navigation",
+    "description": "En este reto creamos una barra de navegación fija que al hacer scroll cambia de color.",
+    "img": "url('https://i.ibb.co/qpgzWfm/26-1.png')",
+    "imgRes": "url('https://i.ibb.co/QfpGHtZ/26-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day26StickyNavigation",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day26StickyNavigation/#"
+  },
+  {
+    "id": 27,
+    "title": "split landing page",
+    "description": "En este reto creamos una pagina de aterrizaje dividida, que al pasar el mouse encima de una imagen, esta se expande.",
+    "img": "url('https://i.ibb.co/61Rwwr4/27-1.png')",
+    "imgRes": "url('https://i.ibb.co/Z8KB8XN/27-2.png')",
+    "github": "https://github.com/SebasO8/50ChallengesJavascript/tree/main/Day27splitlandingpage",
+    "deploy": "https://50-challenges-javascript.vercel.app/Day27splitlandingpage/#"
   }
-  
 ]

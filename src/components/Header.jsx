@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import {GiMagnifyingGlass} from 'react-icons/gi'
 
@@ -9,8 +9,28 @@ const StyledHeader = styled.nav`
   padding: 1rem 1rem;
   z-index:100;
   position:fixed;
+  align-items: center;
+  justify-content: space-between;
   width:100%;
-  background: #9995c4;
+  background: #000;
+`
+//logo
+const Logo = styled.i`
+width: 70px;
+height: 70px;
+background-image: url('https://i.ibb.co/k1vVp9w/Group-1.png');
+background-size: cover;
+object-fit: fill;
+`
+const Title = styled.h2`
+  color: #fff;
+  text-align: center;
+  
+  @media(max-width: 425px){
+    width: 130px;
+    margin-right: 43px;
+  }
+  
 `
 //div del buscador
 const Search = styled.div`
@@ -18,6 +38,7 @@ const Search = styled.div`
   height: 45px;
   width: 45px;
   background: #fff;
+  right: 36px;
 `
 //input del buscador 
 const TextSearch = styled.input`
@@ -27,10 +48,13 @@ const TextSearch = styled.input`
   /* padding: 10px; */
   height: 43px;
   margin: 0;
+  transform:${({search}) => (search ? 'translateX(-160px)' : 'translateX(0px)' )};
+  /* transition: transform 0.3s ease; */
   width: ${({search}) => (search ? '200px' : '40px' )};
-  transition: width 0.3s ease;
-  
-
+  /* transition: width 0.3s ease-out; */
+  position: absolute;
+  top: 0;
+  left: 0;
   &:focus{
     outline: none;
   }
@@ -46,8 +70,8 @@ const Btn = styled.button`
   position: absolute;
   top: 0;
   left: 0;
-  transform:${({search}) => (search ? 'translateX(204px)' : 'translateX(0)' )};
-  transition: transform 0.3s ease;
+  /* transform:${({search}) => (search ? 'translateX(45px)' : 'translateX(0)' )};
+  transition: transform 0.3s ease; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,20 +84,36 @@ const Icon = styled(GiMagnifyingGlass)`
 `
 
 const Header = () => {
-  const [search, setSearch] = useState(false)
+  const [search, setSearch] = useState(false);
+  const [searchTerm, setSearchTerm] = useState(false)
 
   const input = useRef(null)
+  
   function Unfold(){
     setSearch(!search)
     input.current.focus()
   }
 
+  function filterData(term){
+    console.log(term)
+  }
+
+  useEffect(() => {
+    input.current.addEventListener('input', (e) => filterData(e.target.value))
+    return () => {
+      input.current.removeEventListener('input', (e) => filterData(e.target.value))
+    }
+  }, [input])
+
+
+
 
   return (
     <StyledHeader>
-      este es el header
+      <Logo/>
+      <Title>50 Retos Javascript</Title>
       <Search>
-        <TextSearch search={search} ref={input}/>
+        <TextSearch search={search} ref={input} placeholder='Buscar por título'/>
         <Btn search={search}  onClick={Unfold}>
           <Icon/>
         </Btn>
