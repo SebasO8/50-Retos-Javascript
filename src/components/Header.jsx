@@ -85,9 +85,10 @@ const Icon = styled(GiMagnifyingGlass)`
 
 const Header = () => {
   const [search, setSearch] = useState(false);
-  const [searchTerm, setSearchTerm] = useState(false)
+  // const [searchTerm, setSearchTerm] = useState(false)
 
   const input = useRef(null)
+  
   
   function Unfold(){
     setSearch(!search)
@@ -97,12 +98,10 @@ const Header = () => {
   function filterData(term){
     console.log(term)
   }
-
+  
   useEffect(() => {
     input.current.addEventListener('input', (e) => filterData(e.target.value))
-    return () => {
-      input.current.removeEventListener('input', (e) => filterData(e.target.value))
-    }
+    
   }, [input])
 
 
